@@ -1,0 +1,14 @@
+<div ng-repeat="(name, habit) in habits" class="habit {{habit.green ? 'green' : 'red'}}" ng-click="toggle(name)">
+  <div class="content {{habit.show_count ? '' : 'no-count'}}">
+    <div class="description">{{habit.description}}</div>
+    <div class="count" ng-if="habit.show_count">
+      {{habit.count}}<span class="unit" ng-if="habit.unit">{{habit.unit}}</span>
+    </div>
+  </div>
+  <div class="history">
+    <div ng-repeat="day in habit.history track by $index" class="day {{day ? 'green' : 'red'}}"></div>
+  </div>
+
+</div>
+<div ng-if="lastUpdated" class="timestamp">Last updated at {{ lastUpdated | date:"shortTime" }}</div>
+

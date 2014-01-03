@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en" ng-app="habits">
+<head>
+  <meta charset="utf-8">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>Habit Board</title>
+  <link rel="stylesheet" href="stylesheets/app.css"/>
+</head>
+<body>
+  <div class="squares" ng-view>
+  </div>
+  <!-- In production use:
+  <script src="//ajax.googleapis.com/ajax/libs/angularjavascripts/1.0.7/angular.min.js"></script>
+  -->
+  <script src="lib/angular/angular.js"></script>
+  <script src="lib/angular/angular-route.js"></script>
+  <script src="javascripts/compiled/app.js"></script>
+  <script src="javascripts/compiled/services.js"></script>
+  <script src="javascripts/compiled/controllers.js"></script>
+  <script src="javascripts/compiled/filters.js"></script>
+  <script src="javascripts/compiled/directives.js"></script>
+</body>
+</html>

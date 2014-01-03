@@ -1,0 +1,33 @@
+750words:
+  rss: "http://750words.com/api/rss/some-random-string-here"
+buxfer:
+  username: example@email.com
+  password: password
+fitbit:
+  consumer_key: consumer
+  consumer_secret: secret
+  token: token
+  secret: secret
+  user_id: user-id
+instapaper: # See https://github.com/spagalloco/instapaper for auth instructions
+  consumer_key: consumer-key
+  consumer_secret: consumer-secret
+  oauth_token: auth-token
+  oauth_token_secret: secret
+gmail:
+  username: example@gmail.com
+  password: my-one-time-password
+pg:
+  db: habits
+remember_the_milk: # See https://github.com/kevintuhumury/milkman for auth instructions
+  api_key: api-key
+  shared_secret: secret
+  auth_token: auth-token
+  list: Your List Name
+dropbox: # See https://www.dropbox.com/developers/core/start/ruby for auth
+  app_key: your-app-key
+  app_secret: your-app-secret
+  access_token: access-token
+  user_id: user-id
+duolingo:
+  username: myusername
