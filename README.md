@@ -1,12 +1,15 @@
 Habit Squares
 ------
+
+![Habit Squares](http://blog.lazerwalker.com/images/habit-squares.png)
+
 Habit Squares is a web-based habit tracker that gathers data from third-party APIs to help you build and maintain regular habits. Think of it as an automated version of Jerry Seinfeld's famous ["don't break the chain" calendar](http://lifehacker.com/281626/jerry-seinfelds-productivity-secret).
 
 Its interface is inspired by [continuous integration](http://en.wikipedia.org/wiki/Continuous_integration) monitors used in Extreme Programming and other forms of Agile software development. It features a status board containing up to 8 squares, each representing a single, actionable goal you want to accomplish each day. At the beginning of each day, every square is red; when you complete a goal, its square turns from green to red. At the bottom of each square is a rolling 7-day history of its red/green status.
 
 The squares are driven by a modular system that uses third-party APIs to automatically determine when you've accomplished a goal without manual intervention, much as a CI board automatically turns green or red as a build passes or fails.
 
-For more information about the goals and underlying design philosophy of this project, I'd recommend reading the [blog post]() introducing it.
+For more information about the goals and underlying design philosophy of this project, I'd recommend reading the [blog post](http://blog.lazerwalker.com/blog/2014/01/03/introducing-habit-squares/) introducing it.
 
 
 Installation
