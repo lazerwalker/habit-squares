@@ -5,7 +5,6 @@ class RememberTheMilk < DataSource
   @description = "Is my to-do list empty?"
 
   def updated_count
-    binding.pry
     tasks = client.get("rtm.tasks.getList", list_id: list_id)
     tasks = tasks["rsp"]["tasks"]["list"]["taskseries"]
     tasks.reject! do |t|
